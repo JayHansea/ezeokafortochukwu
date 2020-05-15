@@ -1,38 +1,413 @@
-.App {
+.header-color {
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-image {
+  width: 60vw;
+  height: 35vh;
+  border-radius: 50%;
+  margin-top: 10vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-text {
+  background-color: #fff;
+  opacity: 0.4;
+  width: 90%;
+  margin: 2vh auto;
+  padding: 1%;
+  border-radius: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner-text h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #000;
+  margin-block-start: 0.3em;
+  margin-block-end: 0;
+}
+
+.banner-text h3 {
+  font-size: 1.5em;
+  color: #000;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.banner-text hr {
+  border-top: 5px dotted #000;
+  width: 80%;
+  margin-top: auto;
+  margin-left: 8vw;
+}
+
+.social-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.social-links i {
+  color: #000;
+  font-size: 2em;
+  padding: 2%;
+  margin-bottom: 1vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* === Projects page=== */
+.card {
+  width: 350px;
+  height: 350px;
+  margin: auto;
+}
+
+div .grid {
+  margin: 7vh 0;
+}
+
+/* === About page === */
+.about-me p {
+  text-align: justify;
+  margin: 10vh 5vw 2vh 5vw;
+  padding: 2vw 5vw;
+  line-height: 1.7em;
+}
+
+/* === Contact Page=== */
+.contact {
+  background: url(./img/map1.png);
+  width: 100%;
+  height: 20vh;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-blue {
+  width: 100%;
+  height: 80vh;
+  color: #fff;
+  background: #0576e6;
+  text-align: center;
+  padding: 2vh 0;
+  position: fixed;
+}
+
+.contact-blue p {
+  padding: 2vh 2vw;
+}
+
+.contact-blue h4 {
+  padding: 2vh 5vw 2vh 2vw;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 370px) {
+  div .grid {
+    margin-left: 2vw;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 400px) {
+  div .grid {
+    margin-left: 5vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .profile-image {
+    width: 45vw;
+    height: 35vh;
+    border-radius: 50%;
+    margin-top: 10vh;
+  }
+
+  .banner-text h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #000;
+    margin-block-start: 0.3em;
+    margin-block-end: 0;
+  }
+
+  .banner-text h3 {
+    font-size: 3em;
+    color: #000;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .banner-text hr {
+    border-top: 5px dotted #000;
+    width: 80%;
+    margin-top: 2vh;
+    margin-left: 8vw;
+  }
+
+  .banner-text p {
+    color: #000;
+    font-size: 1.8em;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+
+  .social-links i {
+    color: #000;
+    font-size: 4em;
+    padding: 2%;
+    margin-bottom: 1vh;
+  }
+
+  /* === Projects page=== */
+  .card {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+  }
+
+  div .grid {
+    margin: 5vh 0 5vh 3vw;
+    padding: 2%;
+  }
+
+  /* === About page === */
+  .about-me p {
+    font-size: 1.8em;
+    text-align: justify;
+    margin: 10vh 5vw 2vh 5vw;
+    padding: 2vw 5vw;
+    line-height: 1.7em;
+  }
+
+  /* === Contact Page=== */
+  .contact {
+    background: url(./img/map1.png);
+    width: 100%;
+    height: 30vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-blue {
+    width: 100%;
+    height: 70vh;
+    color: #fff;
+    background: #0576e6;
+    text-align: center;
+    padding: 2vh 0 0 0;
+    position: fixed;
+  }
+
+  .contact-blue p {
+    font-size: 2em;
+    padding: 2vh 2vw;
+  }
+
+  .contact-blue h4 {
+    font-size: 3em;
+    padding: 2vh 5vw 2vh 2vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* === Projects page=== */
+  .card {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+  }
+
+  div .grid {
+    margin: 5vh 0 5vh 13vw;
+    padding: 2%;
+  }
+
+  /* === About page === */
+  .about-me p {
+    font-size: 2em;
+    text-align: justify;
+    margin: 10vh 5vw 2vh 5vw;
+    padding: 2vw 5vw;
+    line-height: 2em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .profile-image {
+    width: 15vw;
+    height: 35vh;
+    border-radius: 50%;
+    margin-top: 10vh;
+  }
+
+  .banner-text {
+    background-color: #fff;
+    opacity: 0.4;
+    width: 60%;
+    margin: 3vh auto;
+    padding: 0.5%;
+    border-radius: 20px;
+  }
+
+  .banner-text h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #000;
+    margin-block-start: 0.3em;
+    margin-block-end: 0;
+  }
+
+  .banner-text h3 {
+    color: #000;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+  .banner-text hr {
+    border-top: 5px dotted #000;
+    width: 60%;
+    margin-top: auto;
+    margin-left: 12vw;
+  }
+
+  .banner-text p {
+    color: #000;
+    font-size: 1.3em;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+
+  .social-links i {
+    color: #000;
+    font-size: 5em;
+    padding: 2%;
+    margin-bottom: 1vh;
+  }
+
+  .button-cv {
+    border-radius: 2%;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  .navlink:hover {
+    color: #00ff00c5;
+  }
+
+  .navlink2 {
+    color: #021b79;
+  }
+
+  .navlink2:hover {
+    color: #0575e6;
+  }
+
+  /* === About page === */
+  .about-me p {
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 5vh 5vw;
+    padding: 3vh 5vw;
+    line-height: 2em;
+  }
+
+  /* === Contact Page=== */
+  .contact {
+    background: url(./img/map1.png);
+    width: 100%;
+    height: 35vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .contact-blue {
+    width: 100%;
+    height: 65vh;
+    margin: auto;
+    color: #fff;
+    background: #0576e6;
+    text-align: center;
+    padding: 2vh 0;
+    font-size: 1.2em;
+  }
+
+  .contact-blue p {
+    font-size: 1.2em;
+  }
+
+  .contact-blue h4 {
+    font-weight: bold;
+    font-size: 2em;
+    padding: 1vh 1vw;
+  }
+
+  .card {
+    width: 320px;
+    height: 320px;
+    margin: auto;
+  }
+
+  div .grid {
+    margin-left: 8vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  /* === Projects page=== */
+  .card {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+  }
+
+  div .grid {
+    margin: 5vh 0 5vh 11.5vw;
+    padding: 2%;
   }
 }
