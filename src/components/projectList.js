@@ -7,10 +7,64 @@ import DiceGame from "../img/diceGame.png";
 import RCCGPage from "../img/rccgpage.png";
 import Github from "../img/Github.png";
 import ShoppingCart from "../img/shoppingCart.png";
+import insurance from "../img/insurance.PNG";
+import notes from "../img/Not3s.PNG";
+import gracious from "../img/gracious.PNG";
+import npower from "../img/npower.PNG";
+import yenedor from "../img/yenedor.PNG";
+import vote from "../img/vote.PNG";
 
 export const projectList = [
   {
     id: 1,
+    technology: "(Python | Jupyter Notebook)",
+    projectName: "Insurance Prediction",
+    description: "A model built to predict whether a customer would be interested in Vehicle Insurance",
+    image: `${insurance}`,
+    link: "https://hamoye-insurance-prediction.herokuapp.com/",
+  },
+  {
+    id: 2,
+    technology: "(Javascript)",
+    projectName: "Not3s",
+    description: "A note taking app",
+    image: `${notes}`,
+    link: "https://jayhansea.github.io/Not3s-note-taking-app-/",
+  },
+  {
+    id: 3,
+    technology: "(Wordpress | Woocommerce)",
+    projectName: "Yenedor",
+    description: "An ecommerce websiite for a fashion store",
+    image: `${yenedor}`,
+    link: "https://yenedor.com/",
+  },
+  {
+    id: 4,
+    technology: "(HTML | CSS | Javascript)",
+    projectName: "Online Voting System",
+    description: "Online voting system",
+    image: `${vote}`,
+    link: "https://jayhansea.github.io/online-voting-system/",
+  },
+  {
+    id: 5,
+    technology: "(HTML | CSS | Bootstrap)",
+    projectName: "N-Power Tech",
+    description: "A demo frontend page built while training N-Power tech beneficiaries",
+    image: `${npower}`,
+    link: "https://jayhansea.github.io/NPowerDesign/",
+  },
+  {
+    id: 6,
+    technology: "(Wordpress)",
+    projectName: "Gracious Word",
+    description: "A church website",
+    image: `${gracious}`,
+    link: "https://graciousword.life/",
+  },
+  {
+    id: 7,
     technology: "(HTML | CSS | Bootstrap)",
     projectName: "McAnderson Institute of Technology",
     description: "A website built for the McAnderson Institute of Technology",
@@ -18,7 +72,7 @@ export const projectList = [
     link: "https://mcandersoninstitute.tech/",
   },
   {
-    id: 2,
+    id: 8,
     technology: "(React)",
     projectName: "Profile Tablist",
     description:
@@ -27,7 +81,7 @@ export const projectList = [
     link: "https://reacttablist.herokuapp.com/",
   },
   {
-    id: 3,
+    id: 9,
     technology: "(React)",
     projectName: "Shopping Cart Emulator",
     description:
@@ -36,7 +90,7 @@ export const projectList = [
     link: "https://shopping-cart-emulator.herokuapp.com/",
   },
   {
-    id: 4,
+    id: 10,
     technology: "(Javascript)",
     projectName: "Isomorphic Strings",
     description:
@@ -45,7 +99,7 @@ export const projectList = [
     link: "https://codepen.io/Ezetochukwu/full/PvROLN",
   },
   {
-    id: 5,
+    id: 11,
     technology: "(Javascript)",
     projectName: "Non-repeating Character",
     description:
@@ -54,7 +108,7 @@ export const projectList = [
     link: "https://codepen.io/tochukwujay/full/rQaVYW",
   },
   {
-    id: 6,
+    id: 12,
     technology: "(Javascript)",
     projectName: "Scale Balancer",
     description: "click 'GOTO PAGE' button to view the page on codepen",
@@ -62,7 +116,7 @@ export const projectList = [
     link: "https://codepen.io/Ezetochukwu/full/xeMmwj",
   },
   {
-    id: 7,
+    id: 13,
     technology: "(Javascript)",
     projectName: "Dice Game",
     description: "click 'GOTO PAGE' button to play this dice game",
@@ -70,7 +124,7 @@ export const projectList = [
     link: "https://gracious-aryabhata-12fd63.netlify.app/",
   },
   {
-    id: 8,
+    id: 14,
     technology: "(HTML | CSS | Bootstrap)",
     projectName: "Website template",
     description:
@@ -79,7 +133,7 @@ export const projectList = [
     link: "https://jayhansea.github.io/",
   },
   {
-    id: 9,
+    id: 15,
     technology: "",
     projectName: "Github page",
     description:

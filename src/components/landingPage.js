@@ -16,12 +16,11 @@ class Landing extends Component {
             />
 
             <div className="banner-text">
-              <h1>Software Developer</h1>
-              <h3>Ezeokafor Tochukwu</h3>
+              <h1>Software Developer / Data Analyst</h1>
+              <h3>Tochukwu John Ezeokafor</h3>
               <hr />
               <p>
-                HTML | CSS | Bootstrap | Wordpress | Javascript | React | React
-                Native
+                HTML | CSS | Bootstrap | Wordpress | Javascript | React | Python | Jupyter Notebook | PowerBI
               </p>
               <div className="social-links">
                 {/* LinkedIn */}
@@ -42,13 +41,13 @@ class Landing extends Component {
                   <i className="fa fa-github-square" aria-hidden="true"></i>
                 </a>
                 {/* Facebook */}
-                <a
+                {/* <a
                   rel="noopener noreferrer"
                   href="https://web.facebook.com/profile.php?id=100008704512571"
                   target="_blank"
                 >
                   <i className="fa fa-facebook-square" aria-hidden="true"></i>
-                </a>
+                </a> */}
                 {/* LinkedIn */}
                 <a
                   rel="noopener noreferrer"
