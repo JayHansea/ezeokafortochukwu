@@ -25,11 +25,11 @@ export const projectList = [
   },
   {
     id: 2,
-    technology: "(Javascript)",
-    projectName: "Not3s",
-    description: "A note taking app",
-    image: `${notes}`,
-    link: "https://jayhansea.github.io/Not3s-note-taking-app-/",
+    technology: "(HTML | CSS | Bootstrap)",
+    projectName: "McAnderson Institute of Technology",
+    description: "A website built for the McAnderson Institute of Technology",
+    image: `${MIT}`,
+    link: "https://mcandersoninstitute.tech/",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const projectList = [
   },
   {
     id: 4,
-    technology: "(HTML | CSS | Javascript)",
+    technology: "(HTML | CSS | Javascript | JSON Server)",
     projectName: "Online Voting System",
     description: "Online voting system",
     image: `${vote}`,
@@ -65,11 +65,11 @@ export const projectList = [
   },
   {
     id: 7,
-    technology: "(HTML | CSS | Bootstrap)",
-    projectName: "McAnderson Institute of Technology",
-    description: "A website built for the McAnderson Institute of Technology",
-    image: `${MIT}`,
-    link: "https://mcandersoninstitute.tech/",
+    technology: "(Javascript)",
+    projectName: "Not3s",
+    description: "A note taking app",
+    image: `${notes}`,
+    link: "https://jayhansea.github.io/Not3s-note-taking-app-/",
   },
   {
     id: 8,
